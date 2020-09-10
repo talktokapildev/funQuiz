@@ -1,0 +1,129 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which organ in the body does this coronavirus primarily attack?",
+      "correct_answer": "Lungs",
+      "incorrect_answers": ["All Others", "Liver", "Heart"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What does the 19 in Covid-19 stand for?",
+      "correct_answer": "It is the year the virus was first encountered: 2019",
+      "incorrect_answers": [
+        "It refers to the 19 molecules that make up the virus",
+        "It is the 19th coronavirus identified since the WHO began naming them",
+        "None"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "According to Zoopla’s search data, what feature is top of homebuyers' wish lists?",
+      "correct_answer": "Garage",
+      "incorrect_answers": ["Solar Panels", "Garden", "Parking"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "During the last three years, what did Zoopla find has been the most popular home improvement?",
+      "correct_answer": "new bathroom",
+      "incorrect_answers": ["new kitchen", "double glazed window", "new central heating boiler"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which advanced nation is expected to face the deepest economic downturn because of the coronavirus crisis, according to the OECD?",
+      "correct_answer": "UK",
+      "incorrect_answers": ["US", "Germany", "Italy"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which country has now confirmed the second-highest total coronavirus infections?",
+      "correct_answer": "India",
+      "incorrect_answers": ["Brazil", "Russia", "USA"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which country sells the most cinema tickets in the world?",
+      "correct_answer": "India",
+      "incorrect_answers": ["China", "US", "Russia"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Novak Djokovic, the world’s top-ranked tennis player, was disqualified from the US Open for what?",
+      "correct_answer": "Hitting an official with a ball",
+      "incorrect_answers": ["Foul Language", "Throwing his racquet", "Misbehave with audience"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Uber has pledged to make all of its rides in North America and Europe fully electric by what year?",
+      "correct_answer": "2030",
+      "incorrect_answers": ["2025", "2040", "2035"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the Bank of England base rate today?",
+      "correct_answer": "0.1",
+      "incorrect_answers": ["0.2", "0.3", "0.4"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "With 8.4% of the UK’s population, what percentage of the UK’s natural wealth does Scotland possess?",
+      "correct_answer": "34%",
+      "incorrect_answers": ["24%", "Less than 8.4%", "14%"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Tesla was founded in 2003. What was its first electric car called?",
+      "correct_answer": "Roadster",
+      "incorrect_answers": ["Falcon", "Lotus", "Model S"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which country has begun quietly phasing out equipment from Huawei and other Chinese companies from its telecoms networks?",
+      "correct_answer": "India",
+      "incorrect_answers": ["South Korea", "Poland", "US"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The Trump administration is considering fast-tracking an experimental coronavirus vaccine from which country ahead of the November presidential election?",
+      "correct_answer": "UK",
+      "incorrect_answers": ["US", "Russia", "India"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Where is Nasa planning to send astronauts in 2024?",
+      "correct_answer": "Moon",
+      "incorrect_answers": ["Mercury", "Saturn", "Pluto"]
+    }
+  ]
+}
