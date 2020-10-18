@@ -1,7 +1,17 @@
+#question_img {
+  display: none;
+}
+
+.choices-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
 .choice-container {
   display: flex;
   margin-bottom: 0.5rem;
-  width: 100%;
+  /* width: 100%; */
   font-size: 1.8rem;
   border: 0.1rem solid rgb(86, 165, 235, 0.25);
   background-color: white;
@@ -18,19 +28,34 @@
   padding: 1.5rem 2.5rem;
   background-color: #56a5eb;
   color: white;
+  display: none;
+}
+
+.choice-option-container {
+  border: 10px solid #ecf5ff;
+  border-bottom-width: 30px;
 }
 
 .choice-text {
   padding: 1.5rem;
   width: 100%;
+  display: none;
+}
+
+.choice-image {
+  width: 150px;
+  height: 150px;
 }
 
 .correct {
   background-color: #28a745;
+  border-color: #28a745;
+  /* border: 10px solid #28a745; */
 }
 
 .incorrect {
-  background-color: #dc3545;
+  background-color: #fd797b;
+  border-color: #fd797b;
 }
 
 /* HUD */

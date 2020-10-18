@@ -1,5 +1,7 @@
 const question = document.getElementById('question');
+const questionImage = document.getElementById('question_img');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
+const choiceImages = Array.from(document.getElementsByClassName('choice-image'));
 const progressText = document.getElementById('progressText');
 const scoreText = document.getElementById('score');
 const progressBarFull = document.getElementById('progressBarFull');
@@ -24,10 +26,11 @@ fetch('Qn.json')
     return res.json();
   })
   .then((loadedQuestions) => {
-    console.log(loadedQuestions);
+    // console.log(loadedQuestions);
     questions = loadedQuestions.results.map((loadedQuestion) => {
       const formattedQuestion = {
         question: loadedQuestion.question,
+        questionImageUrl: loadedQuestion.questionImageUrl,
       };
 
       const answerChoices = [...loadedQuestion.incorrect_answers];
@@ -35,7 +38,9 @@ fetch('Qn.json')
       answerChoices.splice(formattedQuestion.answer - 1, 0, loadedQuestion.correct_answer);
 
       answerChoices.forEach((choice, index) => {
-        formattedQuestion['choice' + (index + 1)] = choice;
+        formattedQuestion['choice' + (index + 1)] = choice.value;
+        formattedQuestion['choice' + (index + 1) + '_image'] = choice.image;
+        //formattedQuestion['choice' + (index + 1) + '_textDisplay'] = choice.textDisplay;
       });
 
       return formattedQuestion;
@@ -80,23 +85,36 @@ getNewQuestion = () => {
   currentQuestion = availableQuesions[questionIndex];
   question.innerHTML = currentQuestion.question;
 
+  setQuestionImage();
+
   choices.forEach((choice) => {
     const number = choice.dataset['number'];
     choice.innerHTML = currentQuestion['choice' + number];
+
+    const imageUrl = currentQuestion['choice' + number + '_image']?.url;
+
+    if (!imageUrl) {
+      choice.style.display = 'block';
+    } else {
+      choice.style.display = 'none';
+    }
   });
+
+  setAnswerImages();
 
   //availableQuesions.splice(questionIndex, 1);
   acceptingAnswers = true;
 };
 
 choices.forEach((choice) => {
-  choice.addEventListener('click', (e) => {
+  console.log(choice.parentElement.parentElement);
+  choice.parentElement.parentElement.addEventListener('click', (e) => {
     if (!acceptingAnswers) return;
 
     acceptingAnswers = false;
     const selectedChoice = e.target;
-    const selectedAnswer = selectedChoice.dataset['number'];
-
+    const selectedAnswer = +selectedChoice.dataset['number'];
+    console.log(currentQuestion.answer, selectedAnswer);
     const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
     if (classToApply === 'correct') {
@@ -111,6 +129,37 @@ choices.forEach((choice) => {
     }, 1000);
   });
 });
+
+setQuestionImage = () => {
+  // console.log(currentQuestion);
+  if (currentQuestion.questionImageUrl) {
+    questionImage.src = currentQuestion.questionImageUrl;
+    questionImage.style.display = 'block';
+  } else {
+    questionImage.style.display = 'none';
+  }
+  questionImage.src = currentQuestion.questionImageUrl;
+};
+
+setAnswerImages = () => {
+  choiceImages.forEach((choice) => {
+    // console.log(choice);
+    const number = choice.dataset['number'];
+    const imgObj = currentQuestion['choice' + number + '_image'];
+    //const { url, width, height } = imgObj;
+    //choice.src = currentQuestion['choice' + number + '_imageUrl'];
+    if (imgObj?.url) {
+      choice.style.display = 'block';
+      choice.src = imgObj?.url;
+      choice.style.width = imgObj?.width;
+      choice.style.height = imgObj?.height;
+    } else {
+      choice.style.display = 'none';
+    }
+
+    console.log(choice);
+  });
+};
 
 incrementScore = (num) => {
   score += num;
