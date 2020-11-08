@@ -5,143 +5,145 @@
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Where are these chicken nuggets from?",
-      "questionImageUrl": "img/nuggets_q.jpg",
-      "correct_answer": { "value": "Chick-fil-A", "image": { "url": "img/chick-fil-a.png" } },
+      "question": "Who famously said 'You must be the change you wish to see in the world.'",
+      "correct_answer": { "value": "Mahatma Gandhi", "image": { "url": "img/gandhi.jpeg" } },
       "incorrect_answers": [
-        { "value": "Taco Bell", "image": { "url": "img/Taco-Bell.jpg" } },
-        { "value": "McDonalds", "image": { "url": "img/mcdonalds.png" } },
-        { "value": "KFC", "image": { "url": "img/kfc.png" } }
+        { "value": "Winston Churchill", "image": { "url": "img/churchill.jpeg" } },
+        { "value": "Margaret Thatcher", "image": { "url": "img/margaret.jpeg" } },
+        { "value": "Jawaharlal Nehru", "image": { "url": "img/nehru.jpeg" } }
       ]
     },
     {
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Can you name this scoop of wonder?",
-      "questionImageUrl": "img/scoop.webp",
-      "correct_answer": { "value": "Apricot" },
-      "incorrect_answers": [{ "value": "Vanilla" }, { "value": "Caramel" }, { "value": "Grape" }]
+      "question": "Which sea separates Europe from Africa?",
+      "questionImageUrl": "img/mediterranean.webp",
+      "correct_answer": { "value": "Mediterranean" },
+      "incorrect_answers": [{ "value": "Pacific" }, { "value": "North" }, { "value": "Atlantic" }]
     },
     {
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Find Deviled Egg?",
-      "correct_answer": { "value": "deviled-egg", "image": { "url": "img/deviled-egg.jpg", "width": "300px", "height": "300px" } },
+      "question": "World War II started in which year?",
+      "questionImageUrl": "img/world_war.webp",
+      "correct_answer": { "value": "1939" },
+      "incorrect_answers": [{ "value": "1919" }, { "value": "1945" }, { "value": "1922" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which two countries does the Ganges river flow through?",
+      "questionImageUrl": "img/ganga.webp",
+      "correct_answer": { "value": "India and Bangladesh" },
+      "incorrect_answers": [{ "value": "India and Nepal" }, { "value": "India and Pakistan" }, { "value": "Bangladesh and Nepal" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which internal organ can regenerate itself?",
+      "questionImageUrl": "img/organ.webp",
+      "correct_answer": { "value": "Liver" },
+      "incorrect_answers": [{ "value": "Lung" }, { "value": "Brain" }, { "value": "Heart" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What percentage of people in the UK live in a town or city?",
+      "questionImageUrl": "img/city_uk.webp",
+      "correct_answer": { "value": "80%" },
+      "incorrect_answers": [{ "value": "50%" }, { "value": "60%" }, { "value": "70%" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "This is which country flag?",
+      "questionImageUrl": "img/flag.jpg",
+      "correct_answer": { "value": "Cyprus" },
+      "incorrect_answers": [{ "value": "Greece" }, { "value": "Malta" }, { "value": "Slovakia" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What language do most people in Bangladesh speak?",
+      "questionImageUrl": "img/bangla.png",
+      "correct_answer": { "value": "Bengali" },
+      "incorrect_answers": [{ "value": "Hindi" }, { "value": "Urdu" }, { "value": "Telugu" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the release date of 'No Time To Die'?",
+      "questionImageUrl": "img/bond.jpg",
+      "correct_answer": { "value": "April 2021" },
+      "incorrect_answers": [{ "value": "March 2021" }, { "value": "May 2021" }, { "value": "June 2021" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who is highest paid athelete 2020?",
+      "correct_answer": { "value": "Roger Federer", "image": { "url": "img/federer.jpg" } },
       "incorrect_answers": [
-        { "value": "hard-boiled", "image": { "url": "img/hard-boiled-egg.jpg", "width": "300px", "height": "300px" } },
-        { "value": "Caramel", "image": { "url": "img/cloud-eggs.jpg", "width": "300px", "height": "300px" } },
-        { "value": "Grape", "image": { "url": "img/fried-eggs.jpg", "width": "300px", "height": "300px" } }
+        { "value": "Cristiano Ronaldo", "image": { "url": "img/ronaldo.jpg" } },
+        { "value": "Lionel Messi", "image": { "url": "img/messi.jpg" } },
+        { "value": "Neymar", "image": { "url": "img/neymar.jpg" } }
       ]
     },
     {
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What type of coffee is this?",
-      "questionImageUrl": "img/macchiato.jpg",
-      "correct_answer": { "value": "Latte macchiato" },
-      "incorrect_answers": [{ "value": "Latte" }, { "value": "Macchiato" }, { "value": "Cappuccino" }]
+      "question": "Who won best Best Picture 2020?",
+      "correct_answer": { "value": "Parasite", "image": { "url": "img/parasite.jpg" } },
+      "incorrect_answers": [
+        { "value": "once upon a time in hollywood", "image": { "url": "img/best_pic_nominee1.png" } },
+        { "value": "1917", "image": { "url": "img/1917.jpeg" } },
+        { "value": "Ford v Ferrari", "image": { "url": "img/fordVferrari.jpg" } }
+      ]
     },
     {
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Name the country whose banknote is displayed above?",
-      "questionImageUrl": "img/currency1.jpg",
-      "correct_answer": { "value": "Australia" },
-      "incorrect_answers": [{ "value": "New Zealand" }, { "value": "Canada" }, { "value": "UK" }]
+      "question": "How old is Elizabeth II?",
+      "questionImageUrl": "img/queen3.jpg",
+      "correct_answer": { "value": "94 years" },
+      "incorrect_answers": [{ "value": "91 years" }, { "value": "92 years" }, { "value": "93 years" }]
     },
     {
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Name this country?",
-      "questionImageUrl": "img/country_name.webp",
-      "correct_answer": { "value": "Poland" },
-      "incorrect_answers": [{ "value": "Czech Republic" }, { "value": "Hungary" }, { "value": "Serbia" }]
+      "question": "The first product this company produced was an electric rice cooker.",
+      "questionImageUrl": "img/rice_cooker.jpg",
+      "correct_answer": { "value": "Sony" },
+      "incorrect_answers": [{ "value": "Samsung" }, { "value": "Whirlpool" }, { "value": "KitchenAid" }]
     },
     {
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Yoga - Name the pose?",
-      "questionImageUrl": "img/yoga_pose.webp",
-      "correct_answer": { "value": "Tree Pose" },
-      "incorrect_answers": [{ "value": "Boat Pose" }, { "value": "Cactus Pose" }, { "value": "Cobra Pose" }]
+      "question": "How long freight train takes from China to London",
+      "questionImageUrl": "img/china-london.webp",
+      "correct_answer": { "value": "18 days" },
+      "incorrect_answers": [{ "value": "20 days" }, { "value": "22 days" }, { "value": "24 days" }]
     },
     {
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Guess the city name?",
-      "questionImageUrl": "img/city_name.webp",
-      "correct_answer": { "value": "Doha" },
-      "incorrect_answers": [{ "value": "Dubai" }, { "value": "Abu Dhabi" }, { "value": "Kuwait City" }]
-    },
-    {
-      "category": "General Knowledge",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "Roughly how long does it take for light to travel between the sun and Earth?",
-      "questionImageUrl": "img/light_travel.webp",
-      "correct_answer": { "value": "8 minutes" },
-      "incorrect_answers": [{ "value": "8 seconds" }, { "value": "8 hours" }, { "value": "8 days" }]
-    },
-    {
-      "category": "General Knowledge",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "When is Mike Tyson next fight?",
-      "questionImageUrl": "img/mike_tyson_fight.jpg",
-      "correct_answer": { "value": "Nov 28, 2020" },
-      "incorrect_answers": [{ "value": "Nov 18, 2020" }, { "value": "Dec 8, 2020" }, { "value": "Nov 22, 2020" }]
-    },
-    {
-      "category": "General Knowledge",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "Where did pizza originate?",
-      "questionImageUrl": "img/pizza.jpg",
-      "correct_answer": { "value": "Europe" },
-      "incorrect_answers": [{ "value": "North America" }, { "value": "South America" }, { "value": "Australia" }]
-    },
-    {
-      "category": "General Knowledge",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "What is the most common blood type in humans?",
-      "questionImageUrl": "img/blood-type.jpeg",
-      "correct_answer": { "value": "O" },
-      "incorrect_answers": [{ "value": "A" }, { "value": "B" }, { "value": "AB" }]
-    },
-    {
-      "category": "General Knowledge",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "For the average adult in a resting state, how much energy brain consume of the body's energy?",
-      "questionImageUrl": "img/brain_energy.png",
-      "correct_answer": { "value": "20%" },
-      "incorrect_answers": [{ "value": "5%" }, { "value": "30%" }, { "value": "40%" }]
-    },
-    {
-      "category": "General Knowledge",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "Which color represents jealousy in literature?",
-      "questionImageUrl": "img/jealous-person.jpg",
-      "correct_answer": { "value": "Green" },
-      "incorrect_answers": [{ "value": "Red" }, { "value": "Purple" }, { "value": "Yellow" }]
-    },
-    {
-      "category": "General Knowledge",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "How many players are there in a water polo team?",
-      "questionImageUrl": "img/water-polo.jpg",
-      "correct_answer": { "value": "7" },
-      "incorrect_answers": [{ "value": "6" }, { "value": "8" }, { "value": "9" }]
+      "question": "Mileage of Honda E?",
+      "questionImageUrl": "img/hondaE.jpg",
+      "correct_answer": { "value": "137 miles" },
+      "incorrect_answers": [{ "value": "107 miles" }, { "value": "127 miles" }, { "value": "147 miles" }]
     }
   ]
 }
