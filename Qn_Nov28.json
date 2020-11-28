@@ -1,0 +1,149 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who famously said 'You must be the change you wish to see in the world.'",
+      "correct_answer": { "value": "Mahatma Gandhi", "image": { "url": "img/gandhi.jpeg" } },
+      "incorrect_answers": [
+        { "value": "Winston Churchill", "image": { "url": "img/churchill.jpeg" } },
+        { "value": "Margaret Thatcher", "image": { "url": "img/margaret.jpeg" } },
+        { "value": "Jawaharlal Nehru", "image": { "url": "img/nehru.jpeg" } }
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which sea separates Europe from Africa?",
+      "questionImageUrl": "img/mediterranean.webp",
+      "correct_answer": { "value": "Mediterranean" },
+      "incorrect_answers": [{ "value": "Pacific" }, { "value": "North" }, { "value": "Atlantic" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "World War II started in which year?",
+      "questionImageUrl": "img/world_war.webp",
+      "correct_answer": { "value": "1939" },
+      "incorrect_answers": [{ "value": "1919" }, { "value": "1945" }, { "value": "1922" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which two countries does the Ganges river flow through?",
+      "questionImageUrl": "img/ganga.webp",
+      "correct_answer": { "value": "India and Bangladesh" },
+      "incorrect_answers": [{ "value": "India and Nepal" }, { "value": "India and Pakistan" }, { "value": "Bangladesh and Nepal" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which internal organ can regenerate itself?",
+      "questionImageUrl": "img/organ.webp",
+      "correct_answer": { "value": "Liver" },
+      "incorrect_answers": [{ "value": "Lung" }, { "value": "Brain" }, { "value": "Heart" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What percentage of people in the UK live in a town or city?",
+      "questionImageUrl": "img/city_uk.webp",
+      "correct_answer": { "value": "80%" },
+      "incorrect_answers": [{ "value": "50%" }, { "value": "60%" }, { "value": "70%" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "This is which country flag?",
+      "questionImageUrl": "img/flag.jpg",
+      "correct_answer": { "value": "Cyprus" },
+      "incorrect_answers": [{ "value": "Greece" }, { "value": "Malta" }, { "value": "Slovakia" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What language do most people in Bangladesh speak?",
+      "questionImageUrl": "img/bangla.png",
+      "correct_answer": { "value": "Bengali" },
+      "incorrect_answers": [{ "value": "Hindi" }, { "value": "Urdu" }, { "value": "Telugu" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the release date of 'No Time To Die'?",
+      "questionImageUrl": "img/bond.jpg",
+      "correct_answer": { "value": "April 2021" },
+      "incorrect_answers": [{ "value": "March 2021" }, { "value": "May 2021" }, { "value": "June 2021" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who is highest paid athelete 2020?",
+      "correct_answer": { "value": "Roger Federer", "image": { "url": "img/federer.jpg" } },
+      "incorrect_answers": [
+        { "value": "Cristiano Ronaldo", "image": { "url": "img/ronaldo.jpg" } },
+        { "value": "Lionel Messi", "image": { "url": "img/messi.jpg" } },
+        { "value": "Neymar", "image": { "url": "img/neymar.jpg" } }
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who won best Best Picture 2020?",
+      "correct_answer": { "value": "Parasite", "image": { "url": "img/parasite.jpg" } },
+      "incorrect_answers": [
+        { "value": "once upon a time in hollywood", "image": { "url": "img/best_pic_nominee1.png" } },
+        { "value": "1917", "image": { "url": "img/1917.jpeg" } },
+        { "value": "Ford v Ferrari", "image": { "url": "img/fordVferrari.jpg" } }
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How old is Elizabeth II?",
+      "questionImageUrl": "img/queen3.jpg",
+      "correct_answer": { "value": "94 years" },
+      "incorrect_answers": [{ "value": "91 years" }, { "value": "92 years" }, { "value": "93 years" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The first product this company produced was an electric rice cooker.",
+      "questionImageUrl": "img/rice_cooker.jpg",
+      "correct_answer": { "value": "Sony" },
+      "incorrect_answers": [{ "value": "Samsung" }, { "value": "Whirlpool" }, { "value": "KitchenAid" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How long freight train takes from China to London",
+      "questionImageUrl": "img/china-london.webp",
+      "correct_answer": { "value": "18 days" },
+      "incorrect_answers": [{ "value": "20 days" }, { "value": "22 days" }, { "value": "24 days" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Mileage of Honda E?",
+      "questionImageUrl": "img/hondaE.jpg",
+      "correct_answer": { "value": "137 miles" },
+      "incorrect_answers": [{ "value": "107 miles" }, { "value": "127 miles" }, { "value": "147 miles" }]
+    }
+  ]
+}

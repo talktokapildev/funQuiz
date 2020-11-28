@@ -107,24 +107,28 @@ getNewQuestion = () => {
 };
 
 choices.forEach((choice) => {
-  console.log(choice.parentElement.parentElement);
+  console.log(choice.parentElement.parentElement, "container:::");
   choice.parentElement.parentElement.addEventListener('click', (e) => {
+    console.log(e, "CLICKED:::");
     if (!acceptingAnswers) return;
 
     acceptingAnswers = false;
-    const selectedChoice = e.target;
+    const selectedChoice = e.target.closest('.choice-container');
     const selectedAnswer = +selectedChoice.dataset['number'];
-    console.log(currentQuestion.answer, selectedAnswer);
+    console.log(currentQuestion.answer, selectedAnswer, selectedChoice, selectedChoice.closest('.choice-container') );
     const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
     if (classToApply === 'correct') {
       incrementScore(CORRECT_BONUS);
     }
 
-    selectedChoice.parentElement.classList.add(classToApply);
+    selectedChoice.classList.add(classToApply);
+    console.log(selectedChoice.querySelectorAll('.choice-option-container'), selectedChoice);
+    selectedChoice.querySelectorAll('.choice-option-container')[0].classList.add(classToApply);
 
     setTimeout(() => {
-      selectedChoice.parentElement.classList.remove(classToApply);
+      selectedChoice.classList.remove(classToApply);
+      selectedChoice.querySelectorAll('.choice-option-container')[0].classList.remove(classToApply);
       getNewQuestion();
     }, 1000);
   });
