@@ -5,143 +5,153 @@
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What was Maradona shirt number?",
-      "correct_answer": { "value": "10", "image": { "url": "img/tshirt_10.jpeg" } },
+      "question": "Which of these is NOT  a real football team?",
+      "questionImageUrl": "img/football.jpg",
+      "correct_answer": { "value": "Birmingham Rovers" },
+      "incorrect_answers": [{ "value": "Chelsea FC" }, { "value": "Tottenham Hotspur" }, { "value": "Partick Thistle" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What colour do you get when you mix blue and yellow?",
+      "questionImageUrl": "img/blue_yellow.jpg",
+      "correct_answer": { "value": "GREEN" },
+      "incorrect_answers": [{ "value": "RED" }, { "value": "PINK" }, { "value": "ORANGE" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the capital of Egypt?",
+      "questionImageUrl": "img/egypt.webp",
+      "correct_answer": { "value": "Cairo" },
+      "incorrect_answers": [{ "value": "Tripoli" }, { "value": "Tehran" }, { "value": "Budapest" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of these is NOT a school in the Harry Potter books?",
+      "questionImageUrl": "img/harry_potter.jpg",
+      "correct_answer": { "value": "Bigglesplump" },
+      "incorrect_answers": [{ "value": "llvermorny" }, { "value": "Durmstrang" }, { "value": "Beauxbatons" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which county has the most fish and chip shops?",
+      "questionImageUrl": "img/fish_chip.webp",
+      "correct_answer": { "value": "London" },
+      "incorrect_answers": [{ "value": "West Midlands" }, { "value": "Cornwall" }, { "value": "Merseyside" }]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The world's most expensive pizza includes caviar and takes three chefs to prepare it. How much does it cost?",
+      "questionImageUrl": "img/pizza.jpg",
+      "correct_answer": { "value": "$12,000" },
       "incorrect_answers": [
-        { "value": "11", "image": { "url": "img/tshirt_11.jpg" } },
-        { "value": "9", "image": { "url": "img/tshirt_9.jpg" } },
-        { "value": "8", "image": { "url": "img/tshirt_8.jpg" } }
+        { "value": "$50" },
+        { "value": "£39.99 as part of a Tuesday special offer" },
+        { "value": "£1000, plus you get free garlic bread" }
       ]
     },
     {
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is Usain Bolt’s 100m world record time?",
-      "questionImageUrl": "img/usain-bolt.jpg",
-      "correct_answer": { "value": "9.58 sec" },
-      "incorrect_answers": [{ "value": "9.27 sec" }, { "value": "9.67 sec" }, { "value": "9.17 sec" }]
-    },
-    {
-      "category": "General Knowledge",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": " Which WWE superstar did Tyson Fury wrestle in 2019?",
-      "questionImageUrl": "img/Tyson-Fury.jpg",
-      "correct_answer": { "value": "Braun Strowman", "image": { "url": "img/braun_strowman.jpg", "width": "300px", "height": "300px" } },
+      "question": "Who said: 'I don't believe in taking right decisions. I take decisions and then make them right.'",
+      "correct_answer": { "value": "Ratan Tata", "image": { "url": "img/ratan.jpg" } },
       "incorrect_answers": [
-        { "value": "Brock Lesner", "image": { "url": "img/brock-lesner.webp", "width": "300px", "height": "300px" } },
-        { "value": "Undertaker", "image": { "url": "img/undertaker.jpg", "width": "300px", "height": "300px" } },
-        { "value": "Big Show", "image": { "url": "img/bigshow.jpg", "width": "300px", "height": "300px" } }
+        { "value": "Elon Musk", "image": { "url": "img/elon.jpg" } },
+        { "value": "Jeff Bezos", "image": { "url": "img/jeff.jpg" } },
+        { "value": "Steve Jobs", "image": { "url": "img/steve.jpg" } }
       ]
     },
     {
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who did England beat in the 2019 cricket World Cup final?",
-      "questionImageUrl": "img/cricket2019.webp",
-      "correct_answer": { "value": "New Zealand" },
-      "incorrect_answers": [{ "value": "India" }, { "value": "Australia" }, { "value": "South Africa" }]
+      "question": "Sir Jony Ive, the lead designer of the iPhone, iPad and iMac, left Apple last year. With which company is he now collaborating?",
+      "questionImageUrl": "img/sir_jony.png",
+      "correct_answer": { "value": "Airbnb" },
+      "incorrect_answers": [{ "value": "Dyson" }, { "value": "Ikea" }, { "value": "Tesla" }]
     },
     {
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "How much does the UK spend on cake every year?",
-      "questionImageUrl": "img/cake_uk.jpeg",
-      "correct_answer": { "value": "£1.2 billion" },
-      "incorrect_answers": [{ "value": "£150,000" }, { "value": "£5 million" }, { "value": "£2.5 billion" }]
+      "question": "Drinks giant Diageo recalled its alcohol-free Guinness 0.0 in November, just two weeks after launch in the UK, because:",
+      "questionImageUrl": "img/guinness.jpg",
+      "correct_answer": { "value": "There was evidence of contamination and the possible presence of mould" },
+      "incorrect_answers": [
+        { "value": " It contained alcohol " },
+        { "value": " There were design faults with the ringpull " },
+        { "value": "None" }
+      ]
     },
     {
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "At what temperature does a popcorn kernel pop?",
-      "questionImageUrl": "img/popcorn.jpeg",
-      "correct_answer": { "value": "180 C" },
-      "incorrect_answers": [{ "value": "160 C" }, { "value": "105 C" }, { "value": "100 C" }]
+      "question": "Tesla entrepreneur Elon Musk said the brain of which animal had been implanted with a computer chip, as part of his Neuralink venture?",
+      "questionImageUrl": "img/elon_neura.jpg",
+      "correct_answer": { "value": "Gertrude the pig" },
+      "incorrect_answers": [{ "value": "Harriet the sheep" }, { "value": "Frances the rat" }, { "value": "Charlie the dog" }]
     },
     {
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Approximately how much DNA do humans and chimpanzees share?",
-      "questionImageUrl": "img/chim.jpeg",
-      "correct_answer": { "value": "99%" },
-      "incorrect_answers": [{ "value": "80%" }, { "value": "63%" }, { "value": "25%" }]
+      "question": "How much beer was pubs forced to pour down the drain due to coronavirus restrictions, according to the British Beer & Pubs Association?",
+      "questionImageUrl": "img/beer_pint.jpg",
+      "correct_answer": { "value": "70m pints" },
+      "incorrect_answers": [{ "value": "80m pints" }, { "value": "90m pints" }, { "value": "100m pints" }]
     },
     {
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "How tall is the Eiffel Tower in centimetres?",
-      "questionImageUrl": "img/eiffel.jpeg",
-      "correct_answer": { "value": "30000" },
-      "incorrect_answers": [{ "value": "38360" }, { "value": "12500" }, { "value": "10000" }]
+      "question": "Who has made the most money since the start of the coronavirus pandemic? ",
+      "correct_answer": { "value": "elon", "image": { "url": "img/elon.jpg" } },
+      "incorrect_answers": [
+        { "value": "Jeff", "image": { "url": "img/jeff.jpg" } },
+        { "value": "mukesh", "image": { "url": "img/mukesh.jpg" } },
+        { "value": "mark", "image": { "url": "img/mark_zuk.jpg" } }
+      ]
     },
     {
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "How many stars are on the USA flag?",
-      "questionImageUrl": "img/us_flag.jpeg",
-      "correct_answer": { "value": "50" },
-      "incorrect_answers": [{ "value": "48" }, { "value": "49" }, { "value": "52" }]
+      "question": "Regina nine-pack toilet rolls have an RRP of £2.49. In March, an eBay seller was selling dozens of the packs at what price?",
+      "questionImageUrl": "img/toilet_roll.jpg",
+      "correct_answer": { "value": "£12.99" },
+      "incorrect_answers": [{ "value": "£10.99" }, { "value": "£23.99" }, { "value": "£33.99" }]
     },
     {
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which of the following is not a typical ingredient in fluffy Yorkshire pudding?",
-      "questionImageUrl": "img/yorkshire_pudding.jpg",
-      "correct_answer": { "value": "Baking powder" },
-      "incorrect_answers": [{ "value": "Flour" }, { "value": "Egg" }, { "value": "Milk" }]
+      "question": "What is another name of superman?",
+      "questionImageUrl": "img/superman.jpg",
+      "correct_answer": { "value": "The Man of Steel" },
+      "incorrect_answers": [{ "value": "The Masked Avenger" }, { "value": "The Caped Crusader" }, { "value": "The Red Redeemer" }]
     },
     {
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In miles, what is the distance between London and Canberra?",
-      "questionImageUrl": "img/london_canberra.jpeg",
-      "correct_answer": { "value": "10545" },
-      "incorrect_answers": [{ "value": "5000" }, { "value": "8504" }, { "value": "16050" }]
-    },
-    {
-      "category": "General Knowledge",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "How long is the Great Wall of China?",
-      "questionImageUrl": "img/china_wall.jpeg",
-      "correct_answer": { "value": "13,171 miles" },
-      "incorrect_answers": [{ "value": "9171 miles" }, { "value": "10,171 miles" }, { "value": "20,171 miles" }]
-    },
-    {
-      "category": "General Knowledge",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "In which country would you find The European Parliament building?",
-      "questionImageUrl": "img/eu_par.jpeg",
-      "correct_answer": { "value": "France" },
-      "incorrect_answers": [{ "value": "England" }, { "value": "Holland" }, { "value": "Belgium" }]
-    },
-    {
-      "category": "General Knowledge",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "What is the biggest city in India?",
-      "questionImageUrl": "img/biggestcity.jpeg",
-      "correct_answer": { "value": "Mumbai" },
-      "incorrect_answers": [{ "value": "New Delhi" }, { "value": "Kolkata" }, { "value": "Jaipur" }]
-    },
-    {
-      "category": "General Knowledge",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "How many satellites Elon Musk is hoping to send to space?",
-      "questionImageUrl": "img/starlink.jpeg",
-      "correct_answer": { "value": "42,000" },
-      "incorrect_answers": [{ "value": "32,000" }, { "value": "22,000" }, { "value": "12,000" }]
+      "question": "Which one is fake?",
+      "correct_answer": { "value": "sky", "image": { "url": "img/tomasz_skydiver.jpg", "width": "300px", "height": "300px" } },
+      "incorrect_answers": [
+        { "value": "media", "image": { "url": "img/tomasz_media1.png", "width": "300px", "height": "300px" } },
+        { "value": "pilot", "image": { "url": "img/tomasz_pilot.jpg", "width": "300px", "height": "300px" } },
+        { "value": "army", "image": { "url": "img/tomasz_army.jpg", "width": "300px", "height": "300px" } }
+      ]
     }
   ]
 }
